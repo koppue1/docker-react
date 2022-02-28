@@ -1,6 +1,6 @@
 version: '3'
 services:
-  web:
+  web:                    #the services name can be anything of ur choice
     build:
       context: .     # . indicates look into current directory for all files for my project
       dockerfile: Docker.dev
